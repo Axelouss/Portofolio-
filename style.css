@@ -107,16 +107,19 @@ pre span{
   padding: 0;
 }
 
-#contact li {
-  margin: 8px 0;
-}
-
 #contact a {
   color: #00b4d8;
-  text-decoration: none;
   font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s;
 }
 
 #contact a:hover {
+  color: #0096c7; 
   text-decoration: underline;
+}
+
+#contact li {
+  color: #333;
+  margin: 8px 0;
 }
